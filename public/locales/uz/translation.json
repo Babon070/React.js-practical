@@ -1,0 +1,15 @@
+{
+    "header_message" : "Xabarlar",
+    "header_account" : "Xisobingiz",
+    "header_button" : "E'lon berish",
+    "searchComponent_button" : "Qidiruv",
+    "serachInput_placeholder" : "1 227 243 e'lon atrofingizda",
+    "categories" : "OLX Kategorialar",
+    "main_product_title" : "Premium E'lonlar",
+    "auth_create" : "Ro'ycatdan o'tish",
+    "auth_login" : "Kirish",
+    "basket_empty-title": "Tanlangan maxsulot yo'q",
+    "basket_empty_p": "Kerakli maxsulotni topish uchun asosiy bo'limga qayting",
+    "basket_empty-btn": "Asosiy bo'limga qaytish!"
+
+}

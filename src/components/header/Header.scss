@@ -1,0 +1,103 @@
+header {
+  width: 100%;
+  height: 72px;
+  background-color: #002f34;
+  position: sticky;
+  z-index: 10;
+  left: 0;
+  transition: 0.5s;
+
+  .header__wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    .header__nav {
+      display: flex;
+      align-items: center;
+      color: #fff;
+      gap: 30px;
+
+      &--message {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        font-size: 18px;
+        color: #fff;
+        svg {
+          font-size: 20px;
+        }
+      }
+
+      &--ul {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+
+      &--heart {
+        position: relative;
+        display: flex;
+        align-items: center;
+        color: #fff;
+        font-size: 20px;
+      }
+      &--auth {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        color: #fff;
+      }
+
+      &--basket {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 20px;
+      }
+    }
+    .header__logo {
+      height: 72px;
+    }
+    .avatar_img {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+    }
+  }
+
+  .link {
+    padding: 13px 22px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+
+    &-light {
+      background-color: #fff;
+      color: #002f34;
+    }
+    &-dark {
+      background-color: #002f34;
+      color: #fff;
+    }
+  }
+  .active_lang {
+    color: #24e5db;
+  }
+  .countLikeProducts {
+    font-size: 12px;
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    z-index: 99;
+    left: 13px;
+    top: 11px;
+    background-color: #e5248b;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+}
